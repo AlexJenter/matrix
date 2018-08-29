@@ -2,10 +2,12 @@
   "name": "matrix",
   "version": "0.0.1",
   "description": "Yet another javascript matrix lib",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha ./src/index.test.js",
-    "watch:test": "npm t -- -w"
+    "watch:test": "npm t -- -w",
+    "prebuild": "rimraf dist",
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,12 @@
   },
   "homepage": "https://github.com/AlexJenter/matrix#readme",
   "devDependencies": {
+    "@babel/cli": "7.0.0",
+    "@babel/core": "7.0.0",
+    "@babel/preset-env": "7.0.0",
+    "@babel/preset-stage-2": "7.0.0",
     "chai": "4.1.2",
-    "mocha": "5.2.0"
+    "mocha": "5.2.0",
+    "rimraf": "2.6.2"
   }
 }
