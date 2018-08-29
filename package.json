@@ -9,6 +9,10 @@
     "prebuild": "rimraf dist",
     "build": "babel src --out-dir dist"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexJenter/matrix.git"
