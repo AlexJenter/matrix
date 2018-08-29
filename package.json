@@ -4,7 +4,7 @@
   "description": "Yet another javascript matrix lib",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:test": "mocha ./src/index.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/AlexJenter/matrix/issues"
   },
-  "homepage": "https://github.com/AlexJenter/matrix#readme"
+  "homepage": "https://github.com/AlexJenter/matrix#readme",
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.2.0"
+  }
 }
