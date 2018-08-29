@@ -1,0 +1,24 @@
+{
+  "name": "matrix",
+  "version": "0.0.1",
+  "description": "Yet another javascript matrix lib",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexJenter/matrix.git"
+  },
+  "keywords": [
+    "vector",
+    "matrix",
+    "liner algebra"
+  ],
+  "author": "Alex Jenter <jenteralex@gmail.com> (https://alexjenter.github.io/cv/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexJenter/matrix/issues"
+  },
+  "homepage": "https://github.com/AlexJenter/matrix#readme"
+}
