@@ -4,7 +4,8 @@
   "description": "Yet another javascript matrix lib",
   "main": "src/index.js",
   "scripts": {
-    "watch:test": "mocha ./src/index.test.js -w"
+    "test": "mocha ./src/index.test.js",
+    "watch:test": "npm t -- -w"
   },
   "repository": {
     "type": "git",
